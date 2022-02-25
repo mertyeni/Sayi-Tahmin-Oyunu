@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+
+double sonuc(double s1, double s2)
+{
+	return s1/(s2*s2);
+}
+
+main()
+{ 	
+double boy=0, kilo=0;
+
+cout<<"Kilo giriniz: "<<endl;
+cin>>kilo;
+cout<<"Boy giriniz: "<<" ";
+cin>>boy;
+
+
+if (sonuc(kilo,boy) < 18)
+{
+	cout<<"Zayifsiniz..."<<endl;
+}
+else if (sonuc(kilo,boy)>=18.5 && sonuc(kilo,boy)<=24.4)
+{
+	cout<<"Normal kilolardasiniz..."<<endl;
+}
+else if (sonuc(kilo,boy)>=25  && sonuc(kilo,boy)<29.9)
+{
+	cout<<"Kilolusunuz..."<<endl;
+}
+else if (sonuc(kilo,boy)>=30)
+{
+	cout<<"Obezsiniz..."<<endl;
+}
+	
+}
