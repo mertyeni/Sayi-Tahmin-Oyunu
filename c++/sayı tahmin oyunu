@@ -1,0 +1,43 @@
+#include<iostream>
+#include<stdlib.h>
+#include<time.h>
+using namespace std;
+
+main()
+{ 								/*Çýkabilir*/
+	int pcsayi = 0;
+	int gsayi = 0;
+	int deneme;
+	srand (time(NULL));
+	pcsayi = rand()%100;
+	
+	
+	
+	do{
+		cout<<"Sayi giriniz : ";
+		cin>>gsayi;
+		
+		if(pcsayi<gsayi)
+		{
+			cout<<"Yuksek girdiniz gridiginiz sayiyi kucultunuz. ";
+		}
+		else if(pcsayi>gsayi)
+		{
+			cout<<"Dusuk girdiniz, girdiginiz sayiyi yukseltin. ";
+		}
+		else if(deneme>10)
+		{
+			cout<<"10 denemede yapamadiniz";
+			break;
+		}
+		
+		deneme++;
+	}
+	while(pcsayi != gsayi);
+	{
+		if(gsayi == pcsayi)
+		{
+			cout<<"Tebrikler dogru bildiniz ";
+		}
+	}
+}
