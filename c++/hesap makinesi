@@ -1,0 +1,59 @@
+#include <iostream>
+#include<stdlib.h>
+using namespace std;
+
+double Topla(double s1, double s2)
+{
+	return s1+s2;
+}
+double Cikar(double s1, double s2)
+{
+	return s1-s2;
+}
+double Carp(double s1, double s2)
+{
+	return s1*s2;
+}
+double Bol(double s1, double s2)
+{
+	return s1/s2;
+}
+ 
+int main()
+{
+	double sayi1,sayi2;
+	char secim;
+	
+	cout<<"Sayi 1 : ";
+	cin>>sayi1;
+	
+	cout<<"+,-,*,/ ?   ";
+	cin>>secim;
+	
+	cout<<"Sayi 2 : ";
+	cin>>sayi2;
+
+
+
+switch(secim)
+{
+	case '+':
+		cout<<"Toplam : "<<Topla(sayi1,sayi2)<<endl;
+		break;
+	
+	case '-':
+		cout<<"Toplam : "<<Cikar(sayi1,sayi2)<<endl;
+		break;
+	
+	case '*':
+		cout<<"Toplam : "<<Carp(sayi1,sayi2)<<endl;
+		break;
+	
+	case '/':
+		cout<<"Toplam : "<<Bol(sayi1,sayi2)<<endl;
+		break;
+		
+	 
+}
+
+}
