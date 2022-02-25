@@ -1,0 +1,26 @@
+#include<iostream>
+#include <math.h>
+using namespace std;
+const float G = 9.80665;
+// Yere düşme süresini hesaplayan fonksiyon
+float SureHesapla(int *yukseklik)
+{
+  float sure = sqrt(2*(*yukseklik)/G);
+  return sure;
+}
+// Yere çarpma anındaki hızı hesaplayan fonksiyon
+float HizHesapla(float *sure)
+{
+  float hiz = G * (*sure);
+  return hiz;
+}
+int main()
+{
+  int yukseklik;
+  cout<<"Cismin serbest bırakıldığı yüksekliği giriniz:";
+  cin>>yukseklik;
+  float YereDusmeSuresi = SureHesapla(&yukseklik);
+  cout<<"Cisim yere "<<YereDusmeSuresi<<" saniye sonra düşer."<<endl;
+  float YereCarpmaHizi = HizHesapla(&YereDusmeSuresi);
+  cout<<"Cisim yere "<<YereCarpmaHizi<<" m/s hızla çarpar."<<endl;
+}
