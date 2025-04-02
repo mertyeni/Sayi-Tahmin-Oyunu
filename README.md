@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @mertyeni
-- 👀 I’m interested in Development  
-- 🌱 I’m currently learning Phyton
+- 👀 I’m interested in Software Test  
+- 🌱 I’m currently learning Java 
 - 💞️ I’m looking to collaborate on Google Developer Students Club  
 - 📫 How to reach me mertyeni@outlook.com.tr
 
