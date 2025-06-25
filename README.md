@@ -5,7 +5,8 @@
 
 ### 🧑‍💻 About Me
 
-I'm a passionate **Junior Software Test Engineer** with hands-on experience in **test automation**, **manual testing**, and **performance testing**. I enjoy building high-quality test scenarios, collaborating with teams, and continuously improving test coverage and product quality.
+I'm a passionate **Junior Software Test Engineer** with hands-on experience in **test automation**, **manual testing**, and **performance testing**. I enjoy building high-quality test scenarios, collaborating with teams, and continuously improving test coverage and product quality.  
+I also manage **CI/CD pipelines using Jenkins**, ensuring seamless integration and deployment processes in test environments.
 
 ---
 
@@ -26,6 +27,9 @@ I'm a passionate **Junior Software Test Engineer** with hands-on experience in *
 #### ⚙️ Performance Testing
 - **k6** (script-based load/stress testing)
 - **Apache JMeter** (GUI and script-based testing)
+
+#### 🔁 CI/CD & DevOps
+- **Jenkins** for CI/CD pipeline management and automated test execution
 
 #### 📊 Monitoring & Reporting
 - **Grafana** dashboards for performance metrics
