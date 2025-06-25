@@ -5,7 +5,7 @@
 
 ### 🧑‍💻 About Me
 
-I'm a passionate **Junior Software Test Engineer** with hands-on experience in **manual testing**, **test automation**, and **performance testing**. I enjoy building high-quality test scenarios, collaborating with teams, and continuously improving test coverage and product quality.
+I'm a passionate **Junior Software Test Engineer** with hands-on experience in **test automation**, **manual testing**, and **performance testing**. I enjoy building high-quality test scenarios, collaborating with teams, and continuously improving test coverage and product quality.
 
 ---
 
@@ -30,15 +30,6 @@ I'm a passionate **Junior Software Test Engineer** with hands-on experience in *
 #### 📊 Monitoring & Reporting
 - **Grafana** dashboards for performance metrics
 - Slack integrations for test result alerts
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mert-yeni&show_icons=true&theme=transparent" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mert-yeni&layout=compact&theme=transparent" alt="Top Languages" />
-</p>
 
 ---
 
