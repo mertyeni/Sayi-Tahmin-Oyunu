@@ -35,7 +35,7 @@ I'm a passionate **Junior Software Test Engineer** with hands-on experience in *
 
 ### 📬 Contact Me
 
-- 📧 Email: mert.yeni@obilet.com  
+- 📧 Email: mertyeni@outlook.com.tr
 - 💼 LinkedIn: [linkedin.com/in/mert-yeni](https://www.linkedin.com/in/mert-yeni)
 
 ---
